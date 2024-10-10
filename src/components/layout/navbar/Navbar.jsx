@@ -1,5 +1,4 @@
 import { CartWidget } from "../../common/carWidget/CartWidget";
-
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -10,10 +9,11 @@ export const Navbar = () => {
         src="https://res.cloudinary.com/dimxpkvzj/image/upload/v1728589148/_b5e22b84-1dc0-4119-ae13-1a98c3244775_z3w1pl.jpg"
         alt="Logo de la Cafetería"
       />
-
-      <li>café</li>
-      <li>cápsulas</li>
-      <li>cafeteras</li>
+      <ul>
+        <li>Café</li>
+        <li>Cápsulas</li>
+        <li>Cafeteras</li>
+      </ul>
 
       <CartWidget />
     </nav>

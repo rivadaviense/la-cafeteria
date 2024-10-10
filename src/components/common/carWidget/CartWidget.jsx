@@ -1,10 +1,12 @@
 import { FiShoppingCart } from "react-icons/fi";
-
+import "./cartwidget.css";
 export const CartWidget = () => {
   return (
-    <div>
+    <div className="cart-widget">
       <FiShoppingCart />
-      <span>0</span>
+      <span className="cart-count">0</span>
     </div>
   );
 };
+
+export default CartWidget;
