@@ -1,9 +1,10 @@
-.cart-widget {
+.cart-cart {
   display: flex;
   align-items: center;
   gap: 5px;
   font-size: 25px;
   margin-right: 20px;
+  color: rgb(127, 46, 3);
 }
 
 .cart-count {

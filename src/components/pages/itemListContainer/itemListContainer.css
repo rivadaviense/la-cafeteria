@@ -5,3 +5,10 @@
   margin-top: 20px;
   font-family: "Arial", sans-serif;
 }
+
+.tarjeta-productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}

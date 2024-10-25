@@ -1,0 +1,38 @@
+.tarjeta {
+  margin: 10px;
+  border: 2px solid rgb(249, 160, 8);
+  width: 200px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  max-height: 150px;
+}
+
+.tarjeta button {
+  margin-top: 5px;
+  color: #fdfcfb;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #eb700c;
+  cursor: pointer;
+  transition: background-color 2s, color 100ms;
+}
+.tarjeta button:hover {
+  background-color: #fdfcfb;
+  color: #eb700c;
+}

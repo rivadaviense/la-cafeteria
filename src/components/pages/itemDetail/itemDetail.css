@@ -1,0 +1,48 @@
+.tarjeta-detalle {
+  margin: 30px auto;
+  border: 2px solid rgb(249, 160, 8);
+  width: 900px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-detalle img {
+  margin-top: 20px;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.tarjeta-detalle .info {
+  flex: 1;
+  text-align: left;
+}
+
+.tarjeta-detalle h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tarjeta-detalle description {
+  margin-bottom: 55px;
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.tarjeta-detalle precio {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e17000;
+  display: block;
+  justify-content: center;
+}

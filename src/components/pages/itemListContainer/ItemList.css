@@ -1,0 +1,19 @@
+.item-list-container {
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.titulo-card {
+  background-color: #a43603;
+  height: 80px;
+  font-size: 30px;
+  color: #fbfaf9;
+  text-align: center;
+  line-height: 90px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
