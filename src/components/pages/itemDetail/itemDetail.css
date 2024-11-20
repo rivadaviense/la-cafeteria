@@ -39,10 +39,11 @@
   display: block;
 }
 
-.tarjeta-detalle precio {
+.tarjeta-detalle .precio {
+  margin-top: 15px;
   font-size: 22px;
   font-weight: bold;
-  color: #e17000;
+  color: #e17000; /* Cambia el color aquí */
   display: block;
   justify-content: center;
 }

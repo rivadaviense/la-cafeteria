@@ -1,0 +1,54 @@
+.checkout-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 50px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkout-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkout-button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-id {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  border: 2px solid #333; /* Borde sólido */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  margin: 20px auto; /* Espaciado externo */
+  width: fit-content; /* Ajustar al contenido */
+  line-height: 1.5; /* Espaciado entre líneas */
+  white-space: pre-line; /* Permitir saltos de línea */
+  background-color: #f9d9c1; /* Fondo claro */
+}

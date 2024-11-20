@@ -1,25 +1,32 @@
 import { useState } from "react";
+import "./Counter.css";
 
-const Counter = () => {
-  const [contador, setContador] = useState(0);
+const Counter = ({ stock, agregarAlCarrito, totalInCart }) => {
+  const [contador, setContador] = useState(1);
 
   const sumar = () => {
-    setContador(contador + 1);
+    stock - totalInCart > contador
+      ? setContador(contador + 1)
+      : alert("Has alcanzado el stock máximo");
   };
 
   const restar = () => {
-    setContador(contador - 1);
+    contador > 1 && setContador(contador - 1);
   };
 
   return (
-    <div
-      style={{
-        margin: "50px",
-      }}
-    >
-      <button onClick={sumar}>Sumar</button>
-      <h2>Contador: {contador}</h2>
-      <button onClick={restar}>Restar</button>
+    <div className="counter-container">
+      <h2 className="counter-value">Contador: {contador}</h2>
+      <div className="counter-buttons">
+        <button onClick={restar}>Restar</button>
+        <button onClick={sumar}>Sumar</button>
+      </div>
+      <button
+        className="counter-buttons agregar-button"
+        onClick={() => agregarAlCarrito(contador)}
+      >
+        Agregar al carrito
+      </button>
     </div>
   );
 };
