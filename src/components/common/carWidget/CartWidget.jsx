@@ -5,7 +5,7 @@ import IconButton from "@mui/material/IconButton";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Badge from "@mui/material/Badge";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import "./cartwigdet.css";
+import "./cartwidget.css";
 
 let theme = createTheme({});
 
